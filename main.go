@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"./Funciones"
+)
 
 func main() {
 	var a, b, c float64
@@ -16,4 +20,6 @@ func main() {
 	fmt.Println("La multiplicacion de:", a, "*", b, " es:", c)
 	c = a / b
 	fmt.Println("La Division de:", a, "/", b, " es:", c)
+	c = Funciones.Potencia(a, b)
+	fmt.Println("la potencia de: ", a, " elevado a: ", b, " es:", c)
 }
