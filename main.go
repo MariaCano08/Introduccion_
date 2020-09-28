@@ -8,7 +8,8 @@ import (
 
 func main() {
 	var a, b, c float64
-	fmt.Println("Hola mundo\nDame un numero")
+	fmt.Println("Hola Mundo")
+	fmt.Println("Dame un numero")
 	fmt.Scan(&a)
 	fmt.Println("Dame otro numero")
 	fmt.Scan(&b)
